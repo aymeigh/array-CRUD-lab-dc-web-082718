@@ -9,8 +9,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["red", "yellow", "purple", "pink"]
-  element = "blue"
-  array.last(element)
+  array.last "blue"
   return array
 end
 
